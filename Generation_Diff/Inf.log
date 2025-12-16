@@ -1,0 +1,23 @@
+nohup: ignoring input
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/imageio/plugins/pillow.py:125: UserWarning: Can't determine file format to write as. You _must_ set `format` during write or the call will fail. Use `extension` to supress this warning. 
+  warnings.warn(
+netbios_ssn2
+Model loaded
+Generating new images
+finish
+replayAttacks
+Model loaded
+Generating new images
+finish
+java_rmi
+Model loaded
+Generating new images
+finish
+hydra_ssh2
+Model loaded
+Generating new images
+finish
+mirai
+Model loaded
+Generating new images
+finish

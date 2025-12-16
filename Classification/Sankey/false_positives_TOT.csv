@@ -1,0 +1,10 @@
+Model,Class_0_FP,Class_1_FP,Class_2_FP,Class_3_FP,Class_4_FP,Class_5_FP,Class_6_FP,Class_7_FP
+16_with_dropout_30DIFF.pth,28,35,3,1422,12,178,356,1390
+16_with_dropout_50GAN.pth,104,294,0,1420,22,1543,408,79
+16_with_dropout_20DIFF_ch.pth,367,154,1,1396,15,15,63,1059
+16_with_dropout_50DIFF.pth,69,101,2,1416,25,30,786,1448
+16_with_dropout_80DIFF.pth,448,176,9,1269,593,75,300,1966
+16_with_dropout_80GAN.pth,769,1069,7,1579,1102,259,293,568
+16_with_dropout.pth,189,91,2,1403,27,6,202,786
+16_with_dropout05_20GAN.pth,36,2767,0,1418,11,59,276,1103
+16_with_dropout05_30GAN.pth,219,453,0,1417,19,1080,250,1523

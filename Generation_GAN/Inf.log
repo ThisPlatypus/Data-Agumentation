@@ -1,0 +1,32 @@
+nohup: ignoring input
+/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/cuda/__init__.py:619: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+netbios_ssn2
+Traceback (most recent call last):
+  File "/home/chiara/DataAUG/Generation_GAN/inference.py", line 25, in <module>
+    generate_and_save_images2(generator, 99, 589, classd)
+  File "/home/chiara/DataAUG/Generation_GAN/Model.py", line 126, in generate_and_save_images2
+    gen_imgs = model(z)
+               ^^^^^^^^
+  File "/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chiara/DataAUG/Generation_GAN/Model.py", line 49, in forward
+    out = self.up(out)
+          ^^^^^^^^^^^^
+  File "/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/modules/upsampling.py", line 157, in forward
+    return F.interpolate(input, self.size, self.scale_factor, self.mode, self.align_corners,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/chiara/anaconda3/envs/MGS/lib/python3.12/site-packages/torch/nn/functional.py", line 4026, in interpolate
+    return torch._C._nn.upsample_nearest1d(input, output_size, scale_factors)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: NVML_SUCCESS == DriverAPI::get()->nvmlInit_v2_() INTERNAL ASSERT FAILED at "../c10/cuda/CUDACachingAllocator.cpp":813, please report a bug to PyTorch. 
