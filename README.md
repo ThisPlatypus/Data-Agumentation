@@ -4,7 +4,7 @@
 ## Overview
 This repository contains all code and resources for the experiments presented in our paper:
 
-**"Data Augmentation for Robust Machine Learning in IoT and Edge AI"**  
+**"Addressing data security in iot: Minimum sample size and denoising diffusion models for improved malware detection"**  
 *(Link to the paper: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CMPBKJkAAAAJ&citation_for_view=CMPBKJkAAAAJ:zYLM7Y9cAGgC))*
 
 The work focuses on generating robust augmented data to improve model generalization in scenarios with limited, noisy, or distributed datasets. The repository supports experiments in image classification, IoT sensor data, and other structured datasets.
